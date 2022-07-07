@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dog-shelter/static/css/main.db71f85e.css",
+    "main.js": "/dog-shelter/static/js/main.8dc38b74.js",
+    "index.html": "/dog-shelter/index.html",
+    "main.db71f85e.css.map": "/dog-shelter/static/css/main.db71f85e.css.map",
+    "main.8dc38b74.js.map": "/dog-shelter/static/js/main.8dc38b74.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db71f85e.css",
+    "static/js/main.8dc38b74.js"
+  ]
+}
