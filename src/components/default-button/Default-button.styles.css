@@ -1,0 +1,21 @@
+.default-button {
+	background-color:blue;
+	cursor:pointer;
+	color:white;
+	font-size:20px;
+	padding: 5px 15px;
+	font-weight: 500;
+	min-width: 90px;
+	min-height: 27px;
+    margin: 25px 0;
+	border: none;
+	text-decoration:none;
+    transition: all .3s ease-in-out
+}
+.default-button:hover {
+	background-color:green;
+}
+.default-button:active {
+	position:relative;
+	top:1px;
+}

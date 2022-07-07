@@ -1,0 +1,21 @@
+table, th, td {
+    border: 1px solid;
+}
+
+.dog-table{
+    border-collapse: collapse;
+    border: 1px solid #000000;
+    width: 50%;
+    margin: auto;
+}
+
+.dog-table td{
+    cursor: pointer;
+}
+
+.dog-table * {
+    padding: 15px;
+    font-size: 20px;
+}
+
+
