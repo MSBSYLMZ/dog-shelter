@@ -1,4 +1,9 @@
 .default-select{
-    font-size: 24px;
-    margin: 24px;
+    font-size: 16px;
+    margin: 4px 24px 4px 0;
+    height: 35px;
+    max-width: 90%;
+    background-color: #14546F;
+    color: #fff;
+    outline: none;
 }

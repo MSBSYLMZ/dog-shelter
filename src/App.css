@@ -8,7 +8,18 @@
   flex-wrap: wrap;
 }
 
-.select{
-  font-size: 24px;
-  margin: 25px;
+.flex-start{
+  justify-content: space-between;
 }
+
+.filters{
+  width: 70%;
+  margin: 24px auto;
+}
+
+@media screen and (max-width: 1400px) {
+  .filters{
+      width: 90%;
+  }
+}
+

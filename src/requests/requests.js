@@ -20,7 +20,7 @@ async function getBreeds(){
 
 async function getAvailableDogs(limit = DEFAULT_LIMIT, page = DEFAULT_PAGE,breed=DEFAULT_BREED){
     try {
-        const url =  `${API_URL}/images/search?limit=${limit}&page=${page}&order=desc&${breed && breed.length > 0 ? 'breed_ids=' + breed : ''}` 
+        const url =  `${API_URL}/images/search?limit=${limit}&page=${page}&order=random&size=thumb&${breed && breed.length > 0 ? 'breed_ids=' + breed : ''}` 
         const response = await fetch(url,DEFAULT_REQUEST_OPTIONS);
         return await response.json();
     } catch (error) {

@@ -21,7 +21,7 @@ const DogDetails = ({details, closeDetails, admin}) => {
     <div className='dog-details-layout'>
         <div className="dog-details" ref={detailsRef}>
             <img src={details.url} alt="" />
-            <div className="detail"><span>Name:</span>Dog Name</div>
+            <div className="detail"><span>Name: </span>Dog Name</div>
             {
                 details.breeds?.[0] ? 
                 <>
@@ -31,7 +31,7 @@ const DogDetails = ({details, closeDetails, admin}) => {
                 <div className="detail"><span>Life Span: </span> {details.breeds[0].life_span}</div>
                 </> : null
             }
-            {admin ? <div>Only Admin Properties</div>: null}
+            {admin ? <div className='detail'><span>Timeline: </span>Dog found roaming the streets on 5th June 2021. Joined Animal Shelter on 6th June 2021</div>: null}
         </div>
     </div>
   )

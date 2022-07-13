@@ -38,19 +38,23 @@ function App() {
 
   return (
     <div className='app'>
-      <DefaultSelect onChange={handleSelectChange}>
-        <option value='table'>Table</option>
-        <option value='card'>Card</option>
-        <option value='mini-card'>Mini Card</option>
-      </DefaultSelect>
-      <DefaultSelect  onChange={handleBreedFilterChange} notRequiredPlaceholder='SELECT BREED'>
-        {  breedSelectOptions }
-      </DefaultSelect>
-      {
-        !admin ? 
-        <DefaultButton onClick={loginAdmin}>Login As Admin</DefaultButton> 
-        : <DefaultButton onClick={logoutAdmin}>Logout Admin</DefaultButton>
-      }
+      <div className='flex flex-start filters'>
+        <div className='flex flex-start'>
+          <DefaultSelect onChange={handleSelectChange}>
+            <option value='table'>Table</option>
+            <option value='card'>Card</option>
+            <option value='mini-card'>Mini Card</option>
+          </DefaultSelect>
+          <DefaultSelect  onChange={handleBreedFilterChange} notRequiredPlaceholder='SELECT BREED'>
+            {  breedSelectOptions }
+          </DefaultSelect>
+        </div>
+        {
+          !admin ? 
+          <DefaultButton onClick={loginAdmin}>Login As Admin</DefaultButton> 
+          : <DefaultButton onClick={logoutAdmin}>Logout Admin</DefaultButton>
+        }
+      </div>
       <DogsOverview listAs={listAs} breed={breedFilter} admin={admin}/>
     </div>
   );

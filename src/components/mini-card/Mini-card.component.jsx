@@ -3,7 +3,7 @@ import './Mini-card.styles.css'
 const MiniCard = ({img, name, dogIndex, openDetails}) => {
   return (
     <div className='mini-card' onClick={()=>{openDetails(dogIndex)}}>
-        <div>{name}</div>
+        <div className='dog-name'>{name}</div>
         <img src={img} alt="" />
     </div>
   )

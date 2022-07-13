@@ -5,8 +5,16 @@ table, th, td {
 .dog-table{
     border-collapse: collapse;
     border: 1px solid #000000;
-    width: 50%;
+    width: 70%;
     margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dog-table tr{
+    background-color: #7DD9F2;
+}
+
+.dog-table tr:nth-child(odd){
+    background-color: #FAFAFA;
 }
 
 .dog-table td{
@@ -19,3 +27,9 @@ table, th, td {
 }
 
 
+@media screen and (max-width: 1400px) {
+    .dog-table{
+        width: 90%;
+        left: 5%;
+    }
+}

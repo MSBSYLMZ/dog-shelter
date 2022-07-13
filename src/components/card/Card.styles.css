@@ -1,18 +1,30 @@
 .card{
-    height: 200px;
-    width: 270px;
-    background-color: blue;
-    color: white;
+    height: 380px;
+    width: 340px;
+    background-color: white;
+    color: #000;
     text-align: center;
-    margin: 15px;
-    padding: 10px;
+    margin: 0px 15px 30px 15px;
+    padding: 10px 0;
+    border: 2px groove #00B7E9;
+    box-shadow: 2px 2px 15px #000;
     border-radius: 4px;
     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
 }
 
 .card img{
-    height: 60%;
-    width: 90%;
-    object-fit: cover;
+    height: 240px;
+    width: 100%;
+    object-fit: scale-down;
+    margin-bottom: 8px;
+}
+
+.card span{
+    font-weight: 700;
+    color: #14546F;
+}
+.card div{
+    padding: 0 15px;
 }
