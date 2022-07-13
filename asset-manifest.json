@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/dog-shelter/static/css/main.db71f85e.css",
-    "main.js": "/dog-shelter/static/js/main.8dc38b74.js",
+    "main.css": "/dog-shelter/static/css/main.017020ae.css",
+    "main.js": "/dog-shelter/static/js/main.81c57605.js",
     "index.html": "/dog-shelter/index.html",
-    "main.db71f85e.css.map": "/dog-shelter/static/css/main.db71f85e.css.map",
-    "main.8dc38b74.js.map": "/dog-shelter/static/js/main.8dc38b74.js.map"
+    "main.017020ae.css.map": "/dog-shelter/static/css/main.017020ae.css.map",
+    "main.81c57605.js.map": "/dog-shelter/static/js/main.81c57605.js.map"
   },
   "entrypoints": [
-    "static/css/main.db71f85e.css",
-    "static/js/main.8dc38b74.js"
+    "static/css/main.017020ae.css",
+    "static/js/main.81c57605.js"
   ]
 }
